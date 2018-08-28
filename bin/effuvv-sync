@@ -54,11 +54,11 @@ Brings the system state in-line with what is specified in your configuration.
     }
 
     if (conf.usersAndGroups) {
-      await commands.usersAndGroups(conf.usersAndGroups);
+      //await commands.usersAndGroups(conf.usersAndGroups);
     }
 
     if (conf.services) {
-      await commands.services(conf.services);
+      //await commands.services(conf.services);
     }
 
     await systemstate.save();

@@ -25,6 +25,5 @@ to be modified.
   await copy(source, target);
   console.log(`${ source } -> ${ target }`);
 
-  await passthru("effuvv-edit -o -n /etc/pacman.conf");
-  await passthru("effuvv-edit -o -n /etc/pacman.d/mirrorlist");
+  await passthru("effuvv-edit -o -n /etc/apt/sources.list");
 })();
